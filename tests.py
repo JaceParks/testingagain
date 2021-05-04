@@ -28,7 +28,7 @@ class testfunctions(unittest.TestCase):
     def test_full(self):
         #should not fail
         self.assertEqual(thisfunc.full("jace","parks"),"jace parks")
-        self.assertEqual(thisfunc.full("Martin","Luther"),"Martin Luther")
+        self.assertEqual(thisfunc.full("Martin","Luther"),"Martin luther")
         self.assertEqual(thisfunc.full("James","Harden"),"James Harden")
 
         #should fail
